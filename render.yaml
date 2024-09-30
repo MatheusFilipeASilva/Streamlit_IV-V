@@ -1,8 +1,8 @@
 services:
   - type: web
-    name: MyWebService
-    env: python
+    name: Telemarketing
+    env: Python 3
     buildCommand: pip install -r requirements.txt
-    startCommand: python app.py
+    startCommand: streamlit run bank_analisys_st.py
     plan: free
     branch: main
