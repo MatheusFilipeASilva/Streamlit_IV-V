@@ -3,6 +3,6 @@ services:
     name: Telemarketing
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: streamlit run bank_analisys_st.py
+    startCommand: streamlit run bank_analysis_st.py
     plan: free
     branch: main
