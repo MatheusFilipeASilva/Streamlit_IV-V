@@ -1,7 +1,7 @@
 services:
   - type: web
     name: Telemarketing
-    env: Python 3
+    env: python
     buildCommand: pip install -r requirements.txt
     startCommand: streamlit run bank_analisys_st.py
     plan: free
